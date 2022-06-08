@@ -32,5 +32,7 @@ const fareDoubler = createFareMultiplier(2);
 //The above implements first class function and passes an argument directly to CreatFareMultiplier
 const fareTripler = createFareMultiplier(3);
  //use arrow functions
+//  1) returns the first two drivers when passed returnFirstTwoDrivers() as the second argument
+//       2) returns the last two drivers when passed returnLastTwoDrivers() as the second argument
  const selectDifferentDrivers =(arrayOfDrivers,anyTwoDriver)=>anyTwoDriver(arrayOfDrivers);
 
